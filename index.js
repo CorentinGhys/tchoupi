@@ -44,4 +44,4 @@ if(!message.content.toLowerCase().includes("phrase"))
 
 });
 
-bot.login('NDgwMDE3ODcxOTU1NTU4NDA0.Dlihpg.1aIi4kokIJledgdI7YU2wyd4128') //token
+bot.login(process.env.choupii) //token
