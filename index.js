@@ -45,7 +45,7 @@ if(!message.content.toLowerCase().includes("phrase"))
             message.reply('Tu es beau');
             break
              case 2:   
-           message.reply('Tu es gentil);
+           message.reply('Tu es gentil');
             break         
         case 3:   
            message.reply('Tu sens bon');
