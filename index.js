@@ -35,7 +35,7 @@ if(message.content.toLowerCase().includes("\@everyone")) {
 if(!message.content.toLowerCase().includes("phrase"))
 {
     var i = Math.floor(Math.random() *100)
-    if(i = 26)
+    if(i > 26)
     var y = Math.floor(Math.random() *9)    
     switch (y) {
             case 0:
