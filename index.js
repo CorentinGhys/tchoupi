@@ -34,9 +34,39 @@ if(message.content.toLowerCase().includes("\@everyone")) {
 
 if(!message.content.toLowerCase().includes("phrase"))
 {
-
-    message.reply('your mother is the best person i have ever met in my life');
-}
+    var i = Math.floor(Math.random() *100)
+    if(i = 26)
+    var y = Math.floor(Math.random() *9)    
+    switch (y) {
+            case 0:
+            message.reply('Je t\'aime');
+            break
+        case 1:   
+            message.reply('Tu es beau');
+            break
+             case 2:   
+           message.reply('Tu es gentil);
+            break         
+        case 3:   
+           message.reply('Tu sens bon');
+            break     
+        case 4:   
+           message.reply('Tu es la meilleure personne sur terre');
+            break   
+        case 5:   
+            message.reply('Tu es magnifique quand tu souris');
+            break 
+        case 6:   
+           message.reply('Fais moi un câlin');
+            break 
+              case 7:   
+           message.reply('T\’es mon bijou');
+            break 
+        case 8:   
+           message.reply('Je suis fou de toi je veux mon bisou');
+            break  
+            
+}}
 
 
 
